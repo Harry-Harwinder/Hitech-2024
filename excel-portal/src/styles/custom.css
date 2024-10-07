@@ -1,0 +1,122 @@
+.custom-hover-effect:hover {
+  background-color: #0d6efd !important;
+  /* Use !important to override Bootstrap styles */
+  color: white !important;
+  /* Ensure text color changes if needed */
+  transition: background-color 0.3s ease;
+}
+
+.custom-hover-effect-workbook:hover {
+  background-color: #697587 !important;
+  /* Use !important to override Bootstrap styles */
+  color: white !important;
+  /* Ensure text color changes if needed */
+  transition: background-color 0.3s ease;
+}
+
+.bg-primary {
+  background-color: #007bff !important;
+  /* Customize as needed */
+}
+
+.custom-hover-effect-sheets:hover {
+  background-color: #0065fd !important;
+  /* Use !important to override Bootstrap styles */
+  color: white !important;
+  /* Ensure text color changes if needed */
+  transition: background-color 0.3s ease;
+}
+
+.custom-hover-effect-sheets {
+  font-size: 11px;
+}
+
+.sheet-container {
+  max-height: 150px;
+  /* Adjust this value as needed */
+  overflow-y: auto;
+  /* Add vertical scrollbar if content exceeds max-height */
+}
+
+.sheet-container::-webkit-scrollbar {
+  width: 8px;
+  /* Width of the scrollbar */
+  .excel-container {
+    padding: 20px;
+  }
+  .excel-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .excel-table th,
+  .excel-table td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 8px;
+  }
+  .excel-table th {
+    background-color: #f2f2f2;
+  }
+  .table-input {
+    width: 100px;
+    /* Adjust this based on the desired cell size */
+    padding: 5px;
+    border: none;
+    text-align: left;
+  }
+}
+
+.main-container {
+  max-width: 1234px;
+}
+
+.sheet-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  /* Color of the scrollbar */
+  border-radius: 4px;
+  /* Rounded edges for the scrollbar */
+}
+
+.sheet-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.8);
+  /* Color on hover */
+}
+
+.no-border-input {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Add this CSS to your styles */
+
+.table-header {
+  transition: background-color 0.3s;
+  /* Smooth transition effect */
+}
+
+.table-header:hover {
+  background-color: rgb(25, 135, 84);
+  /* Change to your desired hover color */
+  color: white;
+  /* Change text color for better contrast */
+}
+
+.index-cell {
+  transition: background-color 0.3s;
+  /* Smooth transition for index cells */
+}
+
+.index-cell:hover {
+  background-color: rgb(25, 135, 84);
+  /* Same hover color for index cells */
+  color: white;
+  /* Change text color for better contrast */
+}
+
+.custom-hover-effect-dashboard:hover {
+  background-color: goldenrod !important;
+  /* Use !important to override Bootstrap styles */
+  color: white !important;
+  /* Ensure text color changes if needed */
+  transition: background-color 0.3s ease;
+}
